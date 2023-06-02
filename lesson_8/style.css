@@ -1,0 +1,101 @@
+
+.container {
+  width: 793px;
+  height: 507px;
+  background: #3B3F45;
+  margin: auto;
+  margin-top: 200px;
+  font-family: 'Roboto';
+  color: #FF8984;
+
+} 
+.header-size {
+  height: 82px;
+  background:  #4A4F56;
+  margin-bottom: 25px;
+  
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 19px;
+}
+p {
+  text-align: center;
+  padding-top: 4px;
+  margin: 0 0 0 0;
+}
+.point-size {
+  display: block;
+  width: 534px;
+  height: 45px;
+  background: #88839E;
+  margin: auto;
+}
+.point-size:nth-child(2n+1) {
+  background: #7A7593;
+}
+.point-size:hover {
+  background: #625E77;
+  transition: all .2s ease-in;
+  border:solid white;
+  border-left: none;
+  border-right: none;
+}
+.point-size:active {
+  background:#FF8984;
+  opacity: 0.5;
+}
+
+[name="point-name"] {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  margin: 12px;
+  
+}
+.text {
+  position: absolute;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 0 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 11px;
+
+}
+.text-brackets {
+  color: #FFFFFF;
+display: inline-flex;
+padding-top: 0px;
+position: absolute;
+margin-top: 16px;
+font-weight: 400;
+font-size: 11px;
+margin-left: 130px;
+} 
+input:checked ~ p, .point-size :checked ~ h3 {
+  text-decoration: line-through;
+}
+
+.text-brackets::before { 
+  content:'(';
+}
+.text-brackets::after { 
+  content:')';
+}
+.foot-blok {
+  display: inline-block;
+width: 534px;
+height: 45px;
+background: #4A4F56;
+margin-top: 45px;
+margin-left: 129px;
+}
+.text-foot {
+  font-weight: 400;
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}

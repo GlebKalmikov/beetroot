@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto';
+	color: #16133d;
+}
+.header {
+	width: 1170px;
+	height: 40px;
+	margin: 22px auto;
+	background: url(images/Logo.svg);
+	background-repeat: no-repeat;
+}
+.line {
+	border: 1px solid #efeef3;
+	margin: 0px auto;
+	width: 1440px;
+}
+h4 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+	color: #7690a8;
+}
+h1 {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 52px;
+	margin-top: 15px;
+}
+.box-position {
+	width: 1170px;
+	margin: 100px auto;
+}
+.box-size {
+	width: 1170px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.card-item {
+	width: 370px;
+	height: 340px;
+	border: 1px solid #e5eaf4;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	align-items: flex-start;
+	padding: 40px;
+}
+.card-item:hover {
+	border: 1px solid #3db370;
+}
+h3 {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 21px;
+	letter-spacing: 0.2px;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 16px;
+	line-height: 28px;
+	margin: 5px 0;
+}
+span {
+	color: #3db370;
+	font-weight: 600;
+}
+footer {
+	width: 1440px;
+	height: 193px;
+	background: #16133d;
+	margin: 0 auto;
+	padding: 15px 0 0 140px;
+}
+.logo-white {
+	color: #ffffff;
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 35px;
+	display: inline-block;
+}
+.icons-position {
+	display: flex;
+	gap: 10px;
+}
+.icon-color {
+	width: 38px;
+	height: 38px;
+	background: #efeef3;
+	border-radius: 5px;
+}
+.icon-color:hover {
+	fill: #3db370;
+}
+.icons-style:hover {
+	stroke: #3db370;
+}

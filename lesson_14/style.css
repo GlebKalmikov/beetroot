@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+.box-size {
+	width: 1440px;
+	height: 700px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-around;
+	background: #e5e5e5;
+}
+
+.block-size {
+	width: 590px;
+	height: 570px;
+	background: #ffffff;
+	border-radius: 6px;
+}
+h2 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #1c1c1c;
+	margin: 34px 0 0 35px;
+}
+.input-position {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 36px;
+}
+.form__label {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	line-height: 22px;
+	color: #545454;
+}
+.form__input {
+	background: #ffffff;
+	border-radius: 6px;
+	width: 220px;
+	height: 38px;
+	margin-top: 7px;
+	padding-left: 10px;
+	border: 1px solid #e4e4e4;
+}
+.form__input-smal {
+	background: #ffffff;
+	border-radius: 6px;
+	width: 138px;
+	height: 30px;
+	border: 1px solid #e4e4e4;
+	position: absolute;
+	top: 215px;
+	left: 1020px;
+}
+
+.form__input:hover {
+	border: 1px solid #007bff;
+}
+.form__input-smal :hover {
+	border: 1px solid #007bff;
+}
+
+.email-size {
+	width: 520px;
+}
+.left {
+	margin-left: 36px;
+}
+p {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1px;
+	color: #969696;
+}
+.radio-position {
+	display: flex;
+	justify-content: space-between;
+	width: 160px;
+	height: 22px;
+	margin: 15px 0 0 36px;
+}
+
+.form__label-2 {
+	color: #545454;
+	font-size: 15px;
+	border-left: 20px;
+}
+.button {
+	width: 520px;
+	height: 38px;
+	background: #007bff;
+	border: 1px solid #e4e4e4;
+	border-radius: 6px;
+	color: #ffffff;
+	margin: 10px 35px;
+	font-size: 15px;
+	letter-spacing: -0.1px;
+}
+.button:hover {
+	border: 1px solid #00a9f7;
+}
+.button:active {
+	color: #969696;
+	border: 2px solid rgba(233, 168, 27, 0.467);
+}
+.text-box {
+	margin: 15px 80px 20px;
+	text-align: center;
+}
+.line {
+	background: #e4e4e4;
+	width: 520px;
+	height: 1px;
+	margin-left: 35px;
+}
+.btn-trash {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #e4e4e4;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	position: absolute;
+	left: 1170px;
+	top: 213px;
+}
+.icon {
+	background: url(images/foto.svg);
+	background-repeat: no-repeat;
+	background-position: 115px;
+}
+.icon-trash {
+	background-image: url(images/Trash.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.p-pisition {
+	position: absolute;
+	left: 1020px;
+	top: 245px;
+}
+.select-n {
+	appearance: none;
+}
+.btn-smal {
+	margin: 10px 36px;
+	background: #007bff;
+	border: 1px solid #e4e4e4;
+	border-radius: 6px;
+	height: 38px;
+	width: 150px;
+	color: #e4e4e4;
+}
+.btn-smal:hover {
+	border: 1px solid #00a9f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.btn-smal:active {
+	color: #969696;
+	border: 2px solid rgba(233, 168, 27, 0.467);
+}

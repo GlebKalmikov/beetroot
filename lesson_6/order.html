@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+<label>Повне ім'я
+    <input type="text" name="name" required>
+</label>
+<br> 
+
+<label>
+    Email
+    <input type="email" name="email" required>
+</label>
+<br>
+
+<label>
+    Пароль
+    <input type="password" name="password" required>
+</label> 
+<br>
+
+<label>
+    Пароль ще раз
+    <input type="password" name="password" required>
+</label> 
+<br>
+
+<label>Стать
+    <input type="radio" name="sex" value="man" required> чоловіча 
+    <input type="radio"name="sex" value="woman">жіноча
+</label>  
+<br>
+
+<label >Вік
+<input type="number"name="age" required>
+</label>
+<br>
+<label>Курс
+<select name="course">
+  <option value="">USD</option>
+  <option selected value="">UAH</option>
+  <option value="">PLN</option>
+</select>
+</label>
+<br>
+<label>Пoвна адреса
+  <div><textarea name="address"  cols="30" rows="10" required placeholder="Країна,регіон,місто/селище,вулиця"></textarea></div>
+   </label>
+<button type="reset">Очистити форму</button>
+<button type="submit">Зареєструватися</button>
+    </form>
+  </body>
+</html>

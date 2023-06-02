@@ -1,0 +1,150 @@
+@use 'normalize';
+
+* {
+	box-sizing: border-box;
+}
+.body-size {
+	width: 1440px;
+	height: 1000px;
+	margin: 0 auto;
+	font-family: 'Roboto';
+}
+.header {
+	width: 450px;
+	height: 160px;
+	margin: 120px auto 0;
+	text-align: center;
+}
+.slider {
+	width: 1030px;
+	height: 560px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 66px;
+	text-transform: uppercase;
+	color: #ffcc00;
+	margin-top: 15px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #666666;
+	margin: 5px 0 30px;
+}
+h3 {
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #898f8f;
+	text-align: center;
+}
+.block-line {
+	width: 500px;
+	height: 30px;
+	margin: 5px auto 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.line-l {
+	width: 210px;
+	height: 0px;
+	border: 1px solid #ffcc00;
+}
+.bg {
+	width: 20px;
+	height: 20px;
+	background: url(../images/sharp.svg);
+}
+.line-r {
+	width: 210px;
+	height: 0px;
+	border: 1px solid #ffcc00;
+}
+.vertical-line {
+	background-color: #ffcc00;
+	height: 560px;
+	width: 1px;
+	margin: 0;
+}
+.line-mini {
+	width: 100px;
+	height: 1px;
+	border: 1px solid #ffcc00;
+}
+.imag {
+	width: 440px;
+	height: 440px;
+	background: url(../images/man.svg);
+	background-repeat: no-repeat;
+}
+.right-section {
+	width: 430px;
+	height: 420px;
+	margin: 0 0;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	align-items: center;
+}
+.icons {
+	width: 135px;
+	height: 30px;
+	.icon-size {
+		height: 30px;
+		width: 30px;
+		fill: #cccccc;
+		stroke: #cccccc;
+		&:hover {
+			stroke: indigo;
+			fill: indigo;
+		}
+	}
+}
+a {
+	display: inline-block;
+}
+.text {
+	width: 430px;
+	height: 116px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 50px;
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}
+.micro-line {
+	background: url(../images/micro-line.svg);
+	background-repeat: no-repeat;
+	width: 54px;
+	height: 4px;
+	margin-top: 20px;
+}
+h4 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #666666;
+	border: 1px solid #ffcc00;
+	margin: 20px 0 0;
+	padding: 4px 10px;
+	&:hover {
+		border: 2px solid #ffcc00;
+	}
+}

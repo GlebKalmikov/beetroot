@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "../lesson_1"
+		},
+		{
+			"path": "../lesson_2"
+		},
+		{
+			"path": "../lesson_3"
+		},
+		{
+			"path": "../lesson_4"
+		},
+		{
+			"path": "../lesson_5"
+		},
+		{
+			"path": "../lesson_6"
+		},
+		{
+			"path": "../lesson_7"
+		},
+		{
+			"path": "../lesson_8"
+		},
+		{
+			"path": "../lesson_12"
+		},
+		{
+			"path": "../lesson_13"
+		},
+		{
+			"path": "../lesson_14"
+		},
+		{
+			"path": "../lesson_15"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson_16"
+	}
+}

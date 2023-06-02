@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="normalize.css" />
+	</head>
+	<body>
+		<header class="box-size">
+			<div class="block-size">
+				<h2>Create an Account</h2>
+
+				<div class="input-position">
+					<label class="form__label"
+						>First Name
+						<input class="form__input" type="text" name="first" required />
+					</label>
+					<label class="form__label"
+						>Last Name
+						<input class="form__input" type="text" name="last" required />
+					</label>
+				</div>
+
+				<label class="form__label left"
+					>E-mail
+					<input
+						class="form__input email-size"
+						type="email"
+						name="email"
+						required />
+					<p>We'll never share your email with anyone else.</p>
+				</label>
+
+				<div class="radio-position">
+					<label class="form__label-2">
+						<input type="radio" checked="checked" name="sex" /> Male
+					</label>
+
+					<label class="form__label-2"
+						><input class="radio" type="radio" name="sex" /> Female
+					</label>
+				</div>
+
+				<div class="input-position">
+					<label class="form__label"
+						>Country
+						<select
+							name="country"
+							class="form__input"
+							required
+							placeholder="Select"></select>
+					</label>
+
+					<label class="form__label"
+						>City
+
+						<select name="city" class="form__input" required></select>
+					</label>
+				</div>
+
+				<button class="button">Sign Up</button>
+				<div class="text-box">
+					<p>
+						By clicking the 'Sign Up' button, you confirm that you accept our
+						<br />
+						<span style="color: #007bff">Terms of Use</span> and
+						<span style="color: #007bff">Privacy Policy</span>
+					</p>
+				</div>
+				<div class="line"></div>
+				<p class="text-box">
+					Have an account? <span style="color: #007bff"> Log In</span>
+				</p>
+			</div>
+
+			<div class="block-size">
+				<h2>Profile</h2>
+
+				<div class="input-position">
+					<img class="img-p" src="images/📷 Image.svg" />
+					<input
+						class="form__input-smal icon"
+						name="foto"
+						type="text"
+						required />
+					<input class="btn-trash icon-trash" type="button" name="btn" />
+					<p class="p-pisition">Up to 1 MB (300x300 px)</p>
+				</div>
+				<div class="input-position">
+					<label class="form__label"
+						>Name
+						<input class="form__input" type="text" name="first" required />
+					</label>
+					<label class="form__label"
+						>E-mail
+						<input class="form__input" type="email" name="last" required />
+					</label>
+				</div>
+				<div class="input-position">
+					<label class="form__label"
+						>Country
+						<select name="country" class="form__input" required>
+							<option value="" selected>Select</option>
+							<option value="Poland">Poland</option>
+							<option selected value="Ukraina">Ukraina</option>
+						</select>
+					</label>
+
+					<label class="form__label"
+						>City
+
+						<select name="city" class="form__input select-n" required></select>
+					</label>
+				</div>
+				<div class="input-position">
+					<label class="form__label"
+						>Zip Code
+						<input class="form__input" type="text" name="first" required />
+					</label>
+					<label class="form__label"
+						>Phone Number
+						<input class="form__input" type="number" name="last" required />
+					</label>
+				</div>
+				<button class="btn-smal">Update</button>
+			</div>
+		</header>
+	</body>
+</html>

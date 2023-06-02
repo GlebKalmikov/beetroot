@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:wght@400;700&family=Roboto:wght@500&family=Staatliches&family=Tourney:wght@600&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="main.html" />
+		<script
+			src="https://kit.fontawesome.com/a076d05399.js"
+			crossorigin="anonymous"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="container">
+			<nav class="block-menu">
+				<a class="language-change" href="#">ENG</a>
+				<a class="menu" href="#">Documentation </a>
+				<p class="menu-gap">/</p>
+				<a class="menu" href="main.html">Who's using</a>
+			</nav>
+			<img src="images/logo.svg" alt="logo" />
+		</header>
+		<section class="size-section">
+			<aside class="sidebar">
+				<a class="bar-style" href="#">Introduction</a>
+				<a class="bar-style" href="#core">core components</a>
+				<a class="bar-style" href="#react">react fundamentals</a>
+				<a class="bar-style" href="#hand">handling text input</a>
+			</aside>
+			<main class="main-size">
+				<div class="content-box">
+					<span class="line"></span>
+					<h2 class="bar-style no-line">
+						Introduction <span class="super">Chapter 1</span>
+					</h2>
+					<p>
+						Welcome to the very start of your React Native journey! If you're
+						looking for environment setup instructions, they've moved to
+						<span class="underline">their own section</span>. Continue reading
+						for an introduction to the documentation, Native Components, React,
+						and more!
+					</p>
+				</div>
+				<div class="content-box">
+					<span class="line"></span>
+					<h2 id="core" class="bar-style no-line">
+						core components<span class="super">Chapter 2</span>
+					</h2>
+					<p>
+						React Native is an open source framework for building Android and
+						iOS applications using React and the app platform’s native
+						capabiles. With React Native, you use JavaScript to access your
+						platform’s APIs as well as to describe the appearance and behavior
+						of your UI using React components:
+						<s style="font-style: italic; text-decoration: none"
+							>of reusable, nestable code.</s
+						>
+						You can learn more about React in the next section. But first, let’s
+						cover how components work in React Native.
+					</p>
+				</div>
+				<div class="content-box">
+					<span class="line"></span>
+					<h2 id="react" class="bar-style no-line">
+						react fundamentals<span class="super">Chapter 3</span>
+					</h2>
+					<p>
+						React Native runs on <span class="underline">React</span>, a popular
+						open source library for building user interfaces with JavaScript. To
+						make the most of React Native, it helps to understand React itself.
+						This section can get you started or can serve as a refresher course.
+					</p>
+					<p>We’re going to cover the core concepts behind React:</p>
+					<p>
+						<span style="font-weight: 700">+ components.</span> The rest of this
+						introduction to React uses cats in its examples: friendly,
+						approachable creatures that need names and a cafe to work in.
+					</p>
+					<p>
+						<span style="font-weight: 700">+ JSX.</span> React and React Native
+						use JSX, a syntax that lets you write elements inside JavaScript
+						like so:<mark
+							>&#60;Text&#62;Hello, I am your cat!&#60;&#8725;Text&#62;.</mark
+						>
+					</p>
+					<p>
+						The React docs have
+						<span class="underline">a comprehensive guide to JSX</span> you can
+						refer to learn even more. Because JSX is JavaScript, you can use
+						variables inside it. Here you are declaring a <mark>name</mark> for
+						the cat, name, and embedding it with curly braces inside
+						<mark>&#60;Text&#62;</mark>
+					</p>
+					<p>
+						<span style="font-weight: 700">+ props.</span> Props is short for
+						“properties”.
+					</p>
+					<p>
+						<span style="font-weight: 700">+ state.</span> While you can think
+						of props as arguments you use to configure how components render,
+						state is like a component’s personal data storage. State is useful
+						for handling data that changes over time or that comes from user
+						interaction. State gives your components memory!
+					</p>
+				</div>
+				<div class="content-box">
+					<span class="line"></span>
+					<h2 id="hand" class="bar-style no-line">
+						handling text input<span class="super">Chapter 4</span>
+					</h2>
+					<p>
+						TextInput is a Core Component that allows the user to enter text. It
+						has an
+						<s style="font-style: italic; text-decoration: none"
+							>onChangeText</s
+						>
+						prop that takes a function to be called every time the text changed,
+						and an onSubmitEditing prop that takes a function to be called when
+						the text is submitted.
+					</p>
+					<p>
+						For example, let's say that as the user types, you're translating
+						their words into a different language. In this new language, every
+						single word is written the same way: &#127829;. So the sentence
+						"Hello there Bob" would be translated as "&#127829; &#127829;".
+					</p>
+				</div>
+				<div class="backgraund"></div>
+			</main>
+		</section>
+	</body>
+</html>
