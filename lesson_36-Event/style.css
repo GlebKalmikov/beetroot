@@ -1,0 +1,8 @@
+.text-block {
+  border: 1px solid black;
+  resize: both;
+  overflow: auto;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
