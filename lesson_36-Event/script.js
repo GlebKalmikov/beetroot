@@ -1,6 +1,6 @@
 // 1.
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {  
   const textContainer = document.getElementById('textContainer');
   let isEditMode = false;
   let originalText = null;
