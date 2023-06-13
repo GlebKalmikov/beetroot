@@ -108,24 +108,19 @@ function getMovieDetails(imdbId) {
 }
 
 function displayMovieDetails(movie) {
-  const details = document.querySelector(`.movie-item .movie-details[data-imdbid="${movie.imdbID}"]`);
+  const details = document.querySelector('.movie-details');
   details.innerHTML = '';
 
   const poster = document.createElement('img');
   poster.setAttribute('src', movie.Poster);
-
   const rating = document.createElement('div');
   rating.textContent = `IMDb Rating: ${movie.imdbRating}`;
-
   const plot = document.createElement('div');
   plot.textContent = `Plot: ${movie.Plot}`;
-
   const actors = document.createElement('div');
   actors.textContent = `Actors: ${movie.Actors}`;
-
   const genre = document.createElement('div');
   genre.textContent = `Genre: ${movie.Genre}`;
-
   const director = document.createElement('div');
   director.textContent = `Director: ${movie.Director}`;
 
