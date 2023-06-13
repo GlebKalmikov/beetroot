@@ -1,0 +1,24 @@
+.search-form {
+  margin-bottom: 20px;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  font-weight: bold;
+}
+
+.movie-details {
+  display: none;
+}
+
+.pagination {
+  margin-top: 20px;
+}
