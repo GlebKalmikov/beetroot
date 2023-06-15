@@ -1,0 +1,87 @@
+.tabs {
+  background: #2B3040;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px;
+  gap: 70px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.blok-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  width: 120px;
+  height: 64px;
+}
+.blok-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  width: 120px;
+  height: 64px;
+}
+.blok-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  width: 120px;
+  height: 64px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 0;
+  color: #8D91A3;
+}
+h3:hover {
+  color: #FFFFFF;
+}
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B7BACD;
+}
+h5 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFDD3F;
+  margin: 0;
+}
+.rat-number {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #B7BACD;
+  position: absolute;
+  top: 8px;
+  left: 23px;
+}
