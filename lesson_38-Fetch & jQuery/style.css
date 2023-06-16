@@ -1,0 +1,88 @@
+* {
+  color: #FFFFFF;
+  font-family: 'Lato';
+}
+body {
+  background-color: #2B3040;
+  
+}
+.container {
+  background-image: url(images/bg-image.png);
+  width: 1000px;
+  height: 860px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-top: 240px;
+  
+}
+.game-info {
+  width: 552px;
+  height: 600px;
+  background: #212534;
+  margin: auto;
+}
+
+.information {
+  width: 600px;
+  height: 432px;
+  
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 72px 20px;
+
+}
+.pic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+}
+.star-rating {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-info {
+  width: 300px;
+  height: 290px;
+}
+.description {
+  width: 290px;
+  height: 240px;
+}
+.button {
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  background: #13E28D;
+  border-radius: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF; 
+}
+.button:active {
+  background:#008b51;
+  color: #2B3040;
+}
+.to-buy {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.price-d {
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+.score {
+  display: flex;
+  justify-content: space-between;
+}
+.ellips {
+  position: relative;
+}
