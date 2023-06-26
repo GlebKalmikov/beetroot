@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-family: 'Kablammo', cursive;
+  font-size: 48px;
+}
+.clock {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.input-blok {
+  margin: 50px auto;
+  text-align: center;
+}
+.inp-s {
+  width: 168px;
+  height: 38px;
+  background: #D9D9D9;
+  border: none;
+  padding-left: 20px;
+}
+.but-s {
+  width: 63x;
+  height: 46px;
+  background: #D9D9D9;
+  border: none;
+  margin-left: 30px;
+}
+.clockWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 156px;
+  height: 152px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  
+}
+.deleteButton {
+  background-color: #FF0404;
+  width: 46px;
+  height: 32px;
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  top: 470px;
+  left: 50%;
+}
+#clockContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
